@@ -1,0 +1,15 @@
+
+{
+  "visible_filenames": [
+    "hiker.spec.hpp",
+    "hiker.cpp",
+    "hiker.hpp",
+    "main.cpp",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+  "filename_extension" : ".cpp",
+  "display_name": "C++ (g++), CppSpec",
+  "unit_test_framework": "cppspec",
+  "image_name": "cyberdojofoundation/gpp-4.9_cppspec"
+}

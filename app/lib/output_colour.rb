@@ -263,4 +263,13 @@ module OutputColour # mix-in
     end
   end
 
+  def self.parse_cppspec(output)
+    cppspec_pattern = /executed, (\d+) of (\d+) behaviors passed and (\d+) failed./
+    if cppspec_pattern.match(output)
+      $3 == "0" ? :green : :red
+    else
+      :amber
+    end
+  end
+
 end

@@ -1,0 +1,21 @@
+
+{
+  "visible_filenames": [
+    "features/hiker.feature",
+    "hiker.stepdefs.cpp",
+    "hiker.cpp",
+    "hiker.hpp",
+    "makefile",
+    "cyber-dojo.sh"
+  ],
+  "support_filenames": [
+    "features/",
+    "features/step_definitions",
+    "features/step_definitions/cucumber.wire"
+  ],
+  "filename_extension" : ".cpp",
+  "display_name": "C++ (g++), CucumberCpp",
+  "unit_test_framework": "ruby_rspec",
+  "image_name": "cyberdojofoundation/gpp-4.9_cucumber-cpp-gtest"
+}
+
